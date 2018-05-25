@@ -22,5 +22,5 @@ const driversByName = function (driver){
 
 const totalRevenue = function (driver){
   const total = driver.reduce((acc, curr) => acc + curr )
-  console.log(total)
+  //console.log(total)
 }
