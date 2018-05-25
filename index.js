@@ -18,4 +18,5 @@ const driversByName = function (driver){
    const newDriver = driver.map(x => x)
   newDriver.sort(function(a, b){ return a.name.localeCompare(b.name)})
   console.log(newDriver)
+  return newDriver
 }
