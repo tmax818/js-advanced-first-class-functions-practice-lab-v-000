@@ -21,7 +21,5 @@ const driversByName = function (driver){
 }
 
 const totalRevenue = function (driver){
-   const newDriver = driver.map(x => x)
-  newDriver.sort(function(a, b){ return a.name.localeCompare(b.name)})
-  return newDriver
+  
 }
