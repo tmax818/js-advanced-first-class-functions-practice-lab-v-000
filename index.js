@@ -31,6 +31,5 @@ const averageRevenue = function (driver){
   const revarr = driver.map(x => x.revenue);
   console.log(revarr.length)
    const total = revarr.reduce((a, c)=> a + c)
-   console.log(total);
-   console.log(total);
+  return (total/revarr.length)
 }
