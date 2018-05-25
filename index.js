@@ -10,7 +10,7 @@ const logDriversByHometown = function (driver, location) {
 }
 
 const driversByRevenue = function (driver){
-  const newDriver = driver
+  const newDriver = driver.map(x => x)
  return newDriver.sort(function(a, b){ return a.revenue - b.revenue})
 
 }
